@@ -8,4 +8,4 @@ function addTask() {
   }
 
   let li = document.createElement("li");
-  li.textContent = task;
+li.textContent = task + " ✅"; // feature1 change
