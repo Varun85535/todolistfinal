@@ -8,6 +8,10 @@ function addTask() {
   }
 
   let li = document.createElement("li");
+<<<<<<< HEAD
   li.textContent = task;
   li.style.color = "blue"; 
 }
+=======
+li.textContent = task + " ✅"; // feature1 change
+>>>>>>> feature1
