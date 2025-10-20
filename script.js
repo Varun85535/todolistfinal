@@ -9,3 +9,5 @@ function addTask() {
 
   let li = document.createElement("li");
   li.textContent = task;
+  li.style.color = "blue"; 
+}
